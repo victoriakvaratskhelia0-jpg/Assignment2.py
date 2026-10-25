@@ -1,0 +1,7 @@
+def analyze_text(text,target_word):
+    words = text.lower().split()
+    lower_target = target_word.lower()
+    total_sum = len(words)
+    counted_numbers = words.count(lower_target)
+    longest_word = max(words ,kay=len)
+    return(total_sum,counted_numbers,longest_word)
